@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css"/>
+    <link rel="stylesheet" href="dashboardcomponents.css"/>
+</head>
+<body>
+  <div class="admin" onclick="profile()">
+    <h2>Admin</h2>
+    <h3>@adminusername</h3>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="adminicon">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+    </svg>    
+  </div>
+<div class="con1">
+    <div class="header">
+    <div class="logo"></div>
+    <h1>POS SYSTEM</h1></div>
+    <div class="menus">
+        <div class="b1">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icons">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+          </svg>          
+        <buttton type="buttton" class="btn1" onclick="dashboard()">Dashboard</buttton></div>
+
+<div class="b1">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icons">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+          </svg>          
+        <buttton type="buttton" class="btn1" onclick="user()">User</buttton></div>
+
+        <div class="b1">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icons">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+          </svg>
+        <buttton type="buttton" class="btn1" onclick="suppliers()">Suppliers</buttton></div>
+
+        <div class="b1">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icons">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z" />
+          </svg>
+          <buttton type="buttton" class="btn1" onclick="category()">Category</buttton></div>
+
+          <div class="b1">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icons">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+          </svg>
+          <buttton type="buttton" class="btn1" onclick="product()">Products</buttton></div>
+
+          <div class="b1">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icons">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.666 3.888A2.25 2.25 0 0013.5 2.25h-3c-1.03 0-1.9.693-2.166 1.638m7.332 0c.055.194.084.4.084.612v0a.75.75 0 01-.75.75H9a.75.75 0 01-.75-.75v0c0-.212.03-.418.084-.612m7.332 0c.646.049 1.288.11 1.927.184 1.1.128 1.907 1.077 1.907 2.185V19.5a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 19.5V6.257c0-1.108.806-2.057 1.907-2.185a48.208 48.208 0 011.927-.184" />
+          </svg>          
+        <buttton type="buttton" class="btn1" onclick="reports()">Reports</buttton></div>
+
+        <div class="b1">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icons">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15M12 9l-3 3m0 0l3 3m-3-3h12.75" />
+          </svg>
+          <a href="/index.html">
+        <buttton type="buttton" class="btn1">Log Out</buttton></div></a> </div>
+</div>
+<!--This is the dashboard component-->
+<div id="dashboardcomponents">
+<div class="mainbutton">
+  <button type="button" class="todaysale">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="saleicon">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+    </svg>
+    Today's Sale</button>
+<button type="button" class="newproduct">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="bagicon">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+  </svg>
+  New Product
+</button>
+  </div>
+  <div class="secondarybuttons">
+    <div class="leftbuttons">
+<button type="button" class="sbtn">
+  Suppliers
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="sbicon">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+  </svg>
+</button>
+<button type="button" class="sbtn">
+  Available Products
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="sbicon">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+  </svg>
+</button>
+    </div>
+    <div class="rightbuttons">
+      <button type="button" class="sbtn">
+        Monthly Sales
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="sbicon">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </button>
+<button type="button" class="sbtn">
+  User
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="sbicon">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+  </svg>
+</button>
+    </div>
+  </div>
+</div>
+<!--This is the usercomponents-->
+<div id="usercomponents">
+
+  <div class="uihead">
+    <div class="uihleft">
+      <div class="ui">User Information</div>
+    </div>
+
+    <div class="uihright">
+      <button type="button" class="adduser" onclick="adduser()">+ ADD USER</button>
+    </div>
+  </div>
+  <div class="uifoot">
+<div class="datatittle">
+  <ul>No.</ul>
+  <ul>NAME</ul>
+  <ul>USERNAME</ul>
+  <ul>ROLE</ul>
+  <ul>ACTION</ul>
+</div>
+<div class="user1">
+  <ul>1</ul>
+  <ul>Admin(sample)</ul>
+  <ul>adminusername</ul>  
+  <ul>Administrator</ul>
+  <ul class="edit">Edit</ul>
+</div>
+  </div>
+</div>
+<!--This is the form when clicking the add user-->
+<div id="blur">
+<div id="adduserform">
+
+<div class="adduserh">
+  <div class="cua">
+    <div class="cuadata">Create User Account</div>
+  </div>
+  <div class="cuac">
+  <div class="cuclose" onclick="useraccclose()">X</div>
+</div>
+</div>
+
+<div class="userinputcreate">
+
+  <div class="flabel">
+<ul>Full Name</ul>
+<input type="text" name="create" class="label"></div>
+
+<div class="slabel">
+<ul>User Name</ul>
+<input type="text" name="create" class="label"></div>
+
+<div class="tlabel">
+  <ul>Password</ul>
+  <input type="password" name="create" class="label"></div>
+</div>
+
+<div class="chooseform">
+<select name="create" placeholder="Choose User Role" class="selectuser">
+  <option value="Admin">Admin</option>
+  <option value="Cashier">Cashier</option>
+</select>
+
+</div>
+
+<div class="cuabuttons">
+  <button type="button" class="dismiss" onclick="useraccclose()">DISMISS</button>
+  <button type="button" class="create">CREATE</button>
+</div>
+
+</div>
+</div>
+<!--This is the suppliers components-->
+<div id="supplierscomponents">
+
+  <div class="sihead">
+    <div class="sihleft">
+      <div class="si">Suppliers Information</div>
+    </div>
+
+    <div class="sihright">
+      <button type="button" class="addsupplier" onclick="addsupplier()">+ ADD SUPPLIER</button>
+    </div>
+  </div>
+  <div class="sifoot">
+<div class="datatittle">
+  <ul>No.</ul>
+  <ul>NAME</ul>
+  <ul>E-MAIL</ul>
+  <ul>PHONE NUMBER</ul>
+  <ul>ADDRESS</ul>
+  <ul>Action</ul>
+</div>
+<div class="user1">
+  <ul>1</ul>
+  <ul>Supplier Name</ul>
+  <ul>Supplier email</ul>  
+  <ul>09*********</ul>
+  <ul>Brgy*********</ul>
+  <ul class="edit">Edit</ul>
+</div>
+  </div>
+</div>
+<!--This is the form when clicking the add supplier-->
+<div id="blur2">
+  <div id="addsuppform">
+  <div class="addsupplierh">
+    <div class="cua">
+      <div class="cuadata">Add Suppliers</div>
+    </div>
+    <div class="cuac">
+    <div class="cuclose" onclick="suppaccclose()">X</div>
+  </div>
+  </div>
+  
+  <div class="suppinputcreate">
+  
+    <div class="flabel">
+  <ul>Full Name</ul>
+  <input type="text" name="create" class="label"></div>
+  
+  <div class="slabel">
+  <ul>Email</ul>
+  <input type="text" name="create" class="label"></div>
+  
+  <div class="tlabel">
+    <ul>Phone Number</ul>
+    <input type="number" name="create" class="label"></div>
+  
+  <div class="flabel">
+    <ul>Address</ul>
+    <input type="text" name="create" class="label"></div>
+  </div>
+  
+ 
+  
+  <div class="cuabuttons">
+    <button type="button" class="dismiss" onclick="suppaccclose()">CLOSE</button>
+    <button type="button" class="create">SUBMIT</button>
+  </div>
+  
+  </div>
+  </div>
+  <!--This is the category components-->
+<div id="categorycomponents">
+  <div class="cathead">
+    <div class="cathleft">
+      <div class="cat">PRODUCT CATEGORY LIST</div>
+    </div>
+    <div class="cathright">
+      <button type="button" class="addcategory" onclick="addcategory()">+ ADD CATEGORY</button>
+    </div>
+  </div>
+  <div class="catfoot">
+<div class="datatittle">
+  <ul>No.</ul>
+  <ul>CATEGORY NAME</ul>
+  <ul>Action</ul>
+</div>
+<div class="user1">
+  <ul>1</ul>
+  <ul>Category Name</ul>
+  <ul class="edit">Edit</ul>
+</div>
+  </div>
+</div>
+<!--This is the form when clicking the add category-->
+<div id="blur3">
+  <div id="addcatform">
+  <div class="addcath">
+    <div class="cua">
+      <div class="cuadata">Add Category</div>
+    </div>
+    <div class="cuac">
+    <div class="cuclose" onclick="cataccclose()">X</div>
+  </div>
+  </div>
+  <div class="suppinputcreate">
+    <div class="flabel">
+  <ul>Category Name</ul>
+  <input type="text" name="create" class="label"></div>
+  </div>
+  <div class="cuabuttons">
+    <button type="button" class="close" onclick="cataccclose()">CLOSE</button>
+    <button type="button" class="update">UPDATE</button>
+  </div>
+  
+  </div>
+  </div>
+<!--This is the product components-->
+<div id="productcomponents">
+  <div class="prohead">
+    <div class="prohleft">
+      <div class="pro">PRODUCT/STOCK INVENTORY</div>
+    </div>
+    <div class="prohright">
+      <button type="button" class="addproduct" onclick="addproduct()">+ ADD PRODUCT</button>
+    </div>
+  </div>
+  <div class="profoot">
+<div class="datatittle">
+  <ul>BARCODE</ul>
+  <ul>PRODUCT</ul>
+  <ul>CATEGORY</ul>
+  <ul>PRICE</ul>
+  <ul>STOCK</ul>
+  <ul>STATUS</ul>
+  <ul>ACTION</ul>
+</div>
+<div class="user1">
+  <ul>1002030</ul>
+  <ul>Product Name</ul>
+  <ul>Category</ul>
+  <ul>P150</ul>
+  <ul>250</ul>
+  <ul>IN STOCK</ul>
+  <ul class="edit">Edit</ul>
+</div>
+<div class="user2">
+  <ul>1002031</ul>
+  <ul>Product Name</ul>
+  <ul>Category</ul>
+  <ul>P`100</ul>
+  <ul>250</ul>
+  <ul>IN STOCK</ul>
+  <ul class="edit">Edit</ul>
+</div>
+  </div>
+</div>
+
+<!--This is the form when clicking the add product-->
+<div id="blur4">
+  <div id="addproform">
+
+  <div class="addproh">
+    <div class="cua">
+      <div class="cuadata">Add Product</div>
+    </div>
+    <div class="cuac">
+    <div class="cuclose" onclick="proaccclose()">X</div>
+  </div>
+  </div>
+<div class="procol2">
+  <input type="text" placeholder="Product Batch" class="col2input" name="addproduct"/>
+  <input type="text" placeholder="Product Name" class="col2input" name="addproduct"/>
+</div>
+<div class="procol3">
+  <input type="text" placeholder="Product Description" class="col3input" name="addproduct"/>
+</div>
+<div class="procol4">
+  <input type="text" class="col4input" placeholder="Cost Price" name="addproduct"/>
+  <input type="text" class="col4input" placeholder="Selling Price" name="addproduct"/>
+  <input type="text" class="col4input" placeholder="Quantity" name="addproduct"/>
+</div>
+<div class="procol5">
+  <input type="text" class="col5input" placeholder="Supplier"  name="addproduct"/>
+  <input type="text" class="col5input" placeholder="Category"  name="addproduct"/>
+</div>
+  </div>
+</div>
+  <!--This is the Repoprt Conponents-->
+<div id="reportscomponent">
+  <div class="reportheadcol">
+  <div class="col1"><div class="msr">MONTHLY SALES REPORT
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="reportsaleicon">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+    </svg>
+  </div></div>
+  <div class="col2"><div class="date">SEPTEMBER 2023</div></div>
+  <div class="col3"><div class="comment">Select Sales Records of the Month of...</div></div>
+  <div class="col4"><select name="date" class="select">
+    <option value="">SELECT</option>
+  </select></div>
+  <div class="col5">
+    <input type="text" class="reportssearch" placeholder="Search Record"></div>
+  </div>
+  <div class="reportfootcol">
+    <div class="fcol1">
+      <ul>No.</ul>
+      <ul>Category</ul>
+      <ul>Product Name</ul>
+      <ul>Price</ul>
+      <ul>Quantity</ul>
+      <ul>Total</ul>
+    </div>
+    <div class="fcol2">
+      <ul>1</ul>
+      <ul>Pants</ul>
+      <ul>Wide Leg Pants M</ul>
+      <ul>P450</ul>
+      <ul>60</ul>
+      <ul>P27,000</ul>
+    </div>
+    <div class="fcol2">
+      <ul>2</ul>
+      <ul>Pants</ul>
+      <ul>Skinny Pants</ul>
+      <ul>P350</ul>
+      <ul>85</ul>
+      <ul>P29,750</ul>
+    </div>
+  </div>
+</div>
+  <!--this is the  profile components-->
+  <div id="profilecomponents">
+    <div class="profilecol1">
+
+      <div class="col1f">
+        <div class="mp">MY PROFILE</div>
+      </div>
+      <div class="col1s">
+        <div class="c2row1">
+          <div class="r1col1">
+            <div class="r1h">Profile</div>
+          </div>
+          <div class="r1col2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="r1icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg>
+            <div class="r1username">
+              <div class="adminnamer1">Admin Name <br />@adminusername</div>
+            </div>
+          </div>
+          <div class="r1col3">
+            <div class="r1footer">
+              <div class="r1ft">
+                september 18th, 2023 <br />Administrator
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+
+
+
+        <div class="c2row2">
+
+          <div class="r2col1">
+            <div class="r2c1">Company Profile Setting</div>
+            <div class="r2c2">Company Name</div>
+            <div class="r2c3">GLAMMORE BOTIQUE</div>
+          </div>
+          <div class="r2col2">
+            <div class="r2cb1">Adress</div>
+            <div class="r2cb2">Consolacion, Agoo, La Union</div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="profilecol2">
+      <div class="p2col">Authentication Details</div>
+<div class="p2col">
+  <div class="pc2">User Name:</div>
+  <div class="pcdata">@adminusername</div>
+</div>
+<div class="p2col">
+  <div class="pc2">Last Login:</div>
+  <div class="pcdata">Wednesday,20th of September 2023,8:00am</div>
+</div>
+<div class="p2col">
+  <div class="pc2">Registered:</div>
+  <div class="pcdata">September 18,2023</div>
+</div>
+  </div>
+    </div>
+</body>
+<script src="dashboard.js"></script>
+</html>

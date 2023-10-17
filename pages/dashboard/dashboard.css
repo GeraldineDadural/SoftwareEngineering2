@@ -1,0 +1,104 @@
+@import url("dashboardcomponents.css");
+@import url("usercomponents.css");
+@import url("supplierscomponent.css");
+@import url("categorycomponent.css");
+@import url("product.component.css");
+@import url("reportscomponents.css");
+@import url("profilecomponents.css");
+body{
+    background-color: rgb(255, 218, 250);
+    overflow: hidden;
+}
+
+
+.header{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    z-index: 2;
+    height: 15%;
+}
+.logo{
+    position: absolute;
+    background-color: brown;
+    width: 25%;
+    height: 80%;
+    border-radius: 90%;
+    left: 2%;
+    top: 5%;
+    z-index: 0;
+}
+h1{
+    right: 10%;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.b1{    
+    margin: 10px 0;
+}
+.menus{
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    flex-direction: column;
+    height: 90vh;
+    width: 70%;
+}
+.admin{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    width: 20%;
+    height: 15%;
+
+
+}
+.adminicon{
+    position: absolute;
+    width: 30%;
+    bottom: 1%;
+    right: 1%;
+}
+.icons{
+    justify-self: start;
+    width: 17%;
+}
+h3{
+    top: 30%;
+    font-weight: 400;
+    position: absolute;
+    left: 11%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-weight: 500;
+    position: absolute;
+    left: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn1{
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+   padding: 10px 20px;
+   font-size: 20px;
+   margin: 10px 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn1:hover{
+    color: aliceblue;
+}
+
+.con1{
+    justify-content: center;
+    width: 25%;
+    height: 95%;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+    background-color: rgb(255, 157, 157);
+    border-radius: 7px;
+    display: flex;
+}
+

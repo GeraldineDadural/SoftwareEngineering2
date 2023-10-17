@@ -1,0 +1,97 @@
+#reportscomponent{
+    width: 70%;
+    height: 80%;
+    right: 1%;
+    position: absolute;
+    top: 17%;
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+}
+.reportheadcol{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+    width: 100%;
+}
+.col2{
+margin-left: 10px;
+}
+.col3{
+    margin-left: 10px;
+}
+.col4{
+    width: 100%;
+    height: 20%;
+}
+.col5{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+.select{
+    width: 15%;
+    height: 100%;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.msr{
+    font-weight: bold;
+    font-size: 20px;
+}
+.reportsaleicon{
+    width: 3%;
+}
+.date{
+    color: rgb(51, 214, 255);
+    font-weight: bold;
+}
+.comment{
+    color: gray;
+}
+.reportsearch{
+display: flex;
+width: 20%;
+height: 30%;
+}
+.reportfootcol{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+    border-style: solid;
+   border-color: black;
+   border-width: 1.5px;
+   
+}
+.fcol1, .fcol2{
+display: flex;
+width: 100%;
+height: 17%;
+}
+.fcol1{
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    width: 97%;
+    margin-top: 10px;
+    background-color: rgb(180, 175, 175);
+    margin-left: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.fcol2{
+    width: 97%;
+    margin-left: 14px;
+    margin-top: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 500;
+}

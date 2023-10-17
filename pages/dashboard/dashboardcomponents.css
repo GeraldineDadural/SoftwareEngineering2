@@ -1,0 +1,72 @@
+#dashboardcomponents{
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    right: 1%;
+    bottom: 3%;
+}
+.mainbutton{
+    position: absolute;
+    width: 70%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    flex-direction: row;
+}
+.saleicon, .bagicon{
+    width: 15%;
+}
+.todaysale{
+    background-color: rgb(255, 194, 204);
+    font-size: 30px;
+    width: 35%;
+    height: 100%;
+    border: none;
+}
+.newproduct{
+    background-color: rgb(255, 194, 204);
+    font-size: 27px;
+    width: 35%;
+    height: 100%;
+    border: none;
+}
+.todaysale:hover{
+background-color: antiquewhite;
+}
+.newproduct:hover{
+    background-color: antiquewhite;
+    }
+.secondarybuttons{
+    top: 30%;
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    flex-direction: row;
+}
+.rightbuttons,.leftbuttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+.sbtn{
+    height: 35%;
+    font-size: 25px;
+    justify-content: space-around;
+    align-items: start;
+    flex-direction: row;
+    display: flex;
+    border: none;
+}
+.sbtn:hover{
+    background-color: rgb(252, 231, 185);
+}
+.sbicon{
+    width: 15%;
+}
